@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <title>Portfolio Website</title>
 </head>
 <body>
     <header class="hero">
         <nav>
-            <div>LOGO</div>
+            <img class="LOGO" src="src/logo.png" alt="MY lOGO">
             <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
         <div class="Area">
@@ -22,21 +22,59 @@
                 <h1>Chris Mugisha</h1>
                 <p>My Portfolio Website</p>
                 <div class="button">About me</div>
-             </div>
+            </div>
 
         </div>
         <div class="Text">
          <h1>Chris Mugisha</h1>
          <p>My Portfolio Website</p>
-         <div class="button">About me</div>
+         <div class="button"></div>
          
         </div>
-        
-        
+            
     </header>
-    <section></section>
-    <section></section>
-    <footer></footer>
+    <section class="subsection"id="about-me">
+        <div class="Info">
+            <h2>About me</h2>
+            <p>Hello World. My Name is Chris Mugisha, I am learning Web development at University of Washington, even though growing up my dreams was to become a professional Soccer Coach.</p>
+        </div>
+        <div class="headshot">
+            <img class="image" src="src/IMG_3036.JPG" alt="My main Picture">
+        </div>
+    </section>
+    <section class="subsection-2" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+
+            <div class="project-c" >
+                <img class="image-c1" src="src/pic5.JPG" alt="Portait pic">
+                 <h3>Linkedin</h3>
+                 <hr/>
+                 <P class="subtext"><a class="p-link" href="https://www.linkedin.com/in/chris-mugisha-b7120413b/">View here</a></P>
+            </div>
+
+            <div class="project-c">
+                <img class="image-c" src="src/pic2.jpg" alt="painting the house with my cousin">
+                 <h3>GitHub</h3>
+                 <hr/>
+                 <p class="subtext"><a class="p-link" href="https://github.com/Mugisha27">View here</a></p>
+
+            </div>
+
+            <div class="project-c">
+                <img class="image-c1" src="src/1.JPG" alt="Instagram with my cousin">
+                <h3>Instagram</h3>
+                <hr/>
+                <p class="subtext"><a class="p-link" href="https://www.instagram.com/chrismugisha24/">View here</a></p>
+             </div>
+            
+
+        </div>
+    </section>
+    <footer id="Contact">
+        <h3>Contact me</h3>
+        <p>Mondclear@gmail.com</p>
+    </footer>
    
   
 </body>
